@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;800;900&display=swap');
+body 
+{
+
+  display: grid;
+  margin: 0;
+  padding: 0;	
+  justify-content: center;
+  min-height: 10vh;
+  background: #060c21;
+  grid-gap: 0.4rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.user{
+	position: relative;
+	width: 350px;
+	height: 1200px;
+	background: #060c21;
+	color: #fff;
+
+}
+
+.user:before 
+{
+	content: '';
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	right: -2px;
+	bottom: -2px;
+	background: #fff;
+	z-index: -1;
+}
+
+.user:after 
+{
+	content: '';
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	right: -2px;
+	bottom: -2px;
+	background: #fff;
+	z-index: -2;
+	filter: blur(40px);
+}
+
+.user:before,
+.user:after
+{
+	background: linear-gradient(235deg,#89ff00,#060c21,#00bcd4);
+}
+
+.button{
+	position: relative;
+	margin-top: 50vh;
+
+	width: 350px;
+	height: 100px;
+	background: #060c21;
+	color: #fff;
+	
+}
+
+.button:before 
+{
+	content: '';
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	right: -2px;
+	bottom: -2px;
+	background: #fff;
+	z-index: -1;
+}
+
+.button:after 
+{
+	content: '';
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	right: -2px;
+	bottom: -2px;
+	background: #fff;
+	z-index: -2;
+	filter: blur(40px);
+}
+
+.button:before,
+.button:after
+{
+	background: linear-gradient(235deg,#00ffff,#00ffff);
+}
+
+.posts{
+	position: relative;
+	background: #060c21;
+	color: #000;
+	width: 430px;
+	
+}
+
+.posts:before 
+{
+	content: '';
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	right: -2px;
+	bottom: -2px;
+	background: #fff;
+	z-index: -1;
+}
+
+.posts:after 
+{
+	content: '';
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	right: -2px;
+	bottom: -2px;
+	background: #fff;
+	z-index: -2;
+	filter: blur(40px);
+}
+
+.posts:before,
+.posts:after
+{
+	background: linear-gradient(235deg,#89ff00,#060c21,#00bcd4);
+}
+
